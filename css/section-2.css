@@ -1,0 +1,141 @@
+.section-2 {
+    /* height: 100vh; */
+    height: auto;
+    width: 100vw;
+    background-color: #0b121f;
+    position: relative;
+
+}
+
+/* scroll lin css */
+.scroll {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 2rem;
+}
+
+.dark-1 {
+    /* border: 2px solid red; */
+    width: 9rem;
+    height: 4.5rem;
+    position: absolute;
+    top: 6%;
+    left: 0;
+    opacity: 0.9;
+    background-color: #0b121f;
+    z-index: 1;
+    box-shadow: 24px 0px 14px 0px #0b121f;
+}
+
+.dark-2 {
+ /* border: 2px solid red; */
+    width: 9rem;
+    height: 4.5rem;
+    position: absolute;
+    top: 6%;
+    right: 0;
+    opacity: 0.9;
+    background-color: #0b121f;
+    z-index: 1;
+     box-shadow: -24px 0px 12px 0px #0b121f;
+}
+
+.scroll-container {
+    display: flex;
+    gap: 50px;
+    animation: scroll 80s linear infinite;
+}
+
+.scroll-container img {
+    height: 70px;
+    width: 70px;
+    opacity: 0.6;
+}
+
+.scroll-container img:hover {
+    opacity: 1;
+}
+
+/* Animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+/* skill container */
+
+.skill-container-top {
+    display: flex;
+    gap: 20rem;
+    background-color: rgb(38, 51, 68);
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 2rem 0rem 2rem;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid #202837;
+}
+
+.skill-container-top-mid-p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+#icon-rotate{
+    transition: all 1s ease;
+}
+#icon-rotate:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.skill-container-top-left {
+    opacity: 0.4;
+}
+
+.skill-container-top-mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(93, 93, 93);
+    border-radius: 10px;
+    opacity: 0.8;
+    height: 50%;
+    width: 24%;
+    padding: 0.5rem;
+}
+
+/* skill container bottom */
+.skill-container-bottom {
+    color: white;
+    margin: 0rem 2rem 0rem 2rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    border: 1px solid #202837;
+
+}
+
+.skill-container-bottom p {
+    color: #a4b1cd;
+    font-size: 1.3rem;
+}
+
+.skill-container-bottom p:hover {
+    color: greenyellow;
+}

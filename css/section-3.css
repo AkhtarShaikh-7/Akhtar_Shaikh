@@ -1,0 +1,153 @@
+.section-3 {
+    height: auto;
+    width: 100vw;
+    background-color: #0b121f !important;
+    color: #a4b1cd;
+
+}
+
+.section-3-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellowgreen;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.section-3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* scroll-behavior: smooth; */
+}
+
+.section-3-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #202837;
+    border-radius: 20px;
+    width: 70%;
+    padding: 1rem;
+    box-shadow: 0px 0px 17px -1px darkslategrey;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+
+}
+
+.card-2 {
+    flex-direction: row-reverse;
+}
+
+/*      hover effect     web link           */
+.card-2-i {
+    justify-content: left !important;
+    position: relative;
+}
+
+.card-2-i-link-effect {
+    left: 60px;
+}
+
+.section-3-card:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.section-3-card i {
+    font-size: 1.5rem;
+    background-color: #1a2332;
+    padding: 1rem 2.7rem 1rem 1rem;
+    border-radius: 50%;
+
+}
+
+.section-3-card-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 2rem; */
+}
+/* .card-2 h2{
+    margin-right: 2rem;
+} */
+.section-3-card-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.section-3-card-2-img img {
+    width: 26vw;
+    height: 40vh;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px royalblue;
+    transition: transform 1s ease;
+}
+
+.section-3-card-2-img img:hover {
+    transform: scale(1.05);
+}
+
+.section-3-card-2-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.section-3-card-2-info p {
+    font-size: 1.2rem;
+}
+
+.section-3-card-3 {
+    position: relative;
+    display: flex;
+    /* justify-content: right; */
+    justify-content: flex-end;
+}
+
+
+/* .icon-wrapper {
+    position: relative;
+}
+
+.icon-wrapper:hover .link-effect {
+    display: flex;
+}
+
+.link-effect {
+    position: absolute;
+    top: -15px;
+    right: 61px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    width: 7rem;
+    height: 5rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1000;
+}
+
+.link-effect-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link-effect-box a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #a4b1cd;
+}
+
+.link-effect-box a:hover {
+    color: yellowgreen;
+    cursor: pointer;
+} */

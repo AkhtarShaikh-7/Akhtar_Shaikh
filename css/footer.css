@@ -1,0 +1,14 @@
+.footer {
+    background-color: #0b121f !important;
+    color: #a4b1cd;
+    padding-bottom: 1rem;
+}
+
+.foot-rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+
+}
