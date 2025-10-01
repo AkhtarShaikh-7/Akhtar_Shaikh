@@ -24,6 +24,9 @@
          display: block;
      }
 
+     /* .dropdown {
+         height: 35vh;
+     } */
 
      .nav-hamburger i:hover .dropdown {
          display: block;
