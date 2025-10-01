@@ -128,7 +128,7 @@ ul {
     position: absolute;
     top: 0;
     right: -1%;
-    height: 30vh;
+    height: 40vh;
     width: 95vw;
     background-color: #0b121f;
     border-radius: 20px;
@@ -149,7 +149,6 @@ ul {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
-    /* allow clicks */
 }
 
 /* @keyframes dropdownslide {
