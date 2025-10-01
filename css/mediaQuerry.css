@@ -109,21 +109,21 @@
      }
 
      .section-1-content h2 {
-         font-size: 1.1rem;
+         font-size: 1.8rem;
          width: 16rem;
      }
 
      .section-1-content p {
-        text-align: center;
-         font-size: 0.9rem;
-         width: 21rem;
-         padding: 0.5rem 0.2rem 0.5rem 1rem;
+         text-align: center;
+         font-size: 1.2rem;
+         width: 17rem;
+         padding: 0.5rem 0.2rem 0.5rem 0rem;
      }
 
      .section-1-content button {
          height: 2rem;
-         width: 14rem;
-         font-size: 1rem;
+         width: 17rem;
+         font-size: 1.2rem;
      }
 
 
@@ -305,16 +305,17 @@
          font-size: 1.5rem;
      }
 
-.dropdown-social-icons img {
-    width: 50px;
+     .dropdown-social-icons img {
+         width: 50px;
 
-}
-.ham-close p,
-#p {
-   
-    font-size: 1.8rem;
+     }
 
-}
+     .ham-close p,
+     #p {
+
+         font-size: 1.8rem;
+
+     }
 
      /* chat */
      .chat {
