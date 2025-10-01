@@ -28,7 +28,7 @@
 }
 
 .dark-2 {
- /* border: 2px solid red; */
+    /* border: 2px solid red; */
     width: 9rem;
     height: 4.5rem;
     position: absolute;
@@ -37,7 +37,7 @@
     opacity: 0.9;
     background-color: #0b121f;
     z-index: 1;
-     box-shadow: -24px 0px 12px 0px #0b121f;
+    box-shadow: -24px 0px 12px 0px #0b121f;
 }
 
 .scroll-container {
@@ -92,9 +92,11 @@
     font-size: 1rem;
     font-weight: 600;
 }
-#icon-rotate{
+
+#icon-rotate {
     transition: all 1s ease;
 }
+
 #icon-rotate:hover {
     transform: rotate(360deg);
     cursor: pointer;
@@ -118,7 +120,8 @@
 
 /* skill container bottom */
 .skill-container-bottom {
-    color: white;
+    /* color: greenyellow; */
+    color: #a4b1cd;
     margin: 0rem 2rem 0rem 2rem;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -128,11 +131,20 @@
     flex-direction: column;
     padding-bottom: 2rem;
     border: 1px solid #202837;
+    background:linear-gradient(rgba(10, 15, 60, 0.9), rgba(173, 255, 47, 0.4)),
+        url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaHxlbnwwfHwwfHx8MA%3D%3D) no-repeat center / cover;
+
+
+
+
+/* background: linear-gradient(160deg, #0d1b2a, #1b263b, #adff2f); */
 
 }
 
 .skill-container-bottom p {
-    color: #a4b1cd;
+    /* color: #a4b1cd; */
+    color: white;
+    
     font-size: 1.3rem;
 }
 

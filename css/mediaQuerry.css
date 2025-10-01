@@ -115,7 +115,7 @@
 
      .section-1-content p {
          text-align: center;
-         font-size: 1.2rem;
+         font-size: 1rem;
          width: 17rem;
          padding: 0.5rem 0.2rem 0.5rem 0rem;
      }
@@ -264,6 +264,8 @@
 
      .foot-rights {
          font-size: 0.8rem;
+         display: flex;
+         flex-direction: column;
      }
 
      .foot-rights i {
