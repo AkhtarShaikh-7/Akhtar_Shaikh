@@ -164,7 +164,7 @@ ul {
 
 .dropdown-social-icons {
     padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.2rem;
     display: flex;
     justify-content: space-around;
 }
