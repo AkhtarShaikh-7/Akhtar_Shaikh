@@ -128,7 +128,8 @@ ul {
     position: absolute;
     top: 0;
     right: -1%;
-    height: 40vh;
+    /* height: 40vh; */
+    height: auto;
     width: 95vw;
     background-color: #0b121f;
     border-radius: 20px;
@@ -163,7 +164,7 @@ ul {
 
 .dropdown-social-icons {
     padding-top: 2rem;
-    padding-bottom: 0.2rem;
+    padding-bottom: 0.8rem;
     display: flex;
     justify-content: space-around;
 }
